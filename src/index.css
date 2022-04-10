@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card {
+  border: 2px solid rgba(90, 98, 117);
+  font-family: "Balsamiq Sans", cursive;
+  max-width: 600px;
+  margin: 30px auto 2px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active {
+  color: rgba(0, 110, 197);
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.col {
+  text-align: center;
+  font-size: smaller;
+}
+
+.enter-city {
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: rgb(130, 142, 170);
+  color: rgba(90, 98, 117);
+  padding: 4px 3px;
+}
+h1 {
+  color: rgba(0, 110, 197);
+  font-size: 21px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.humidity {
+  font-size: smaller;
+}
+
+.row {
+  color: rgba(147, 154, 169);
+}
+
+.search-city {
+  border-color: rgba(90, 98, 117);
+  margin-left: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: rgba(90, 98, 117);
+  background-color: white;
+}
+
+.source {
+  text-align: center;
+  font-size: smaller;
+  margin-top: 20px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.today {
+  color: rgba(0, 110, 197);
+}
+
+.updated {
+  color: rgba(0, 110, 197);
+  font-size: smaller;
+}
+
+.wind {
+  font-size: smaller;
+  margin-top: 10px;
 }
